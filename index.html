@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Отзывы клиентов о работе frontend-разработчика uzakilaa.dev">
+    <title>Отзывы — uzakilaa.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg" aria-hidden="true"></div>
+
+    <header class="header">
+        <a class="brand" href="https://github.com/uzakilaa"><span class="dot"></span>uzakilaa.dev</a>
+        <a class="link" href="https://www.instagram.com/uzakilaa/">Instagram</a>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <p class="kicker">Отзывы</p>
+            <h1>Что говорят <span class="grad">клиенты</span></h1>
+            <p class="lead">Честные отзывы людей, для которых я делал сайты и лендинги.</p>
+            <div class="summary" id="summary" hidden>
+                <span class="summary-score" id="avg"></span>
+                <span class="stars" id="avgStars"></span>
+                <span class="summary-count" id="count"></span>
+            </div>
+            <a class="cta" id="leaveReview" href="#" target="_blank" rel="noopener">✍️ Оставить отзыв</a>
+        </section>
+
+        <section class="list" id="list" aria-live="polite">
+            <p class="state" id="state">Загружаю отзывы…</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Отзывы публикуются после проверки. © uzakilaa.dev</p>
+        <p>
+            <a href="https://uzakilaa.github.io/north-barber/">North Barber</a> ·
+            <a href="https://uzakilaa.github.io/music-player/">Music Player</a> ·
+            <a href="https://uzakilaa.github.io/vintage-food/">Vintage Food</a>
+        </p>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
